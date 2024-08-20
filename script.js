@@ -36,3 +36,7 @@ fetch('https://fakestoreapi.com/products?limit=15')
   .catch(error => {
     console.log('Error fetching data:', error);
   });
+
+
+  
+ 
