@@ -43,13 +43,11 @@ li {
 }
 
 #navbar li { 
-    /* list-style: none; */
     padding: 0 20px;
     position: relative;
 }
 
 #navbar li a { 
-    /* text-decoration: none; */
     font-size: 15px;
     font-weight: 500px;
     color: black;
@@ -239,9 +237,12 @@ li {
 #cardContainer {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
     margin-top: 150px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gray; width: 100%;
 }
   
 .card-link {
@@ -254,7 +255,7 @@ li {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 200px;
     text-align: center;
     transition: transform 0.2s ease-in-out;
 }
